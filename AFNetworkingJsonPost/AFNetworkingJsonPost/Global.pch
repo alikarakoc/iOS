@@ -1,0 +1,1 @@
+#define mesaj(baslik, mesaj, butonAd) [[[UIAlertView alloc] initWithTitle:baslik message:mesaj delegate:self cancelButtonTitle:butonAd otherButtonTitles:nil] show]
