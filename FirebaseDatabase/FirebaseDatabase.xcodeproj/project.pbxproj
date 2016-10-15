@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7F72E05E216CE207591F13 /* Pods_FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FCCAB7AFA0460CCD7BF19D /* Pods_FirebaseDatabase.framework */; };
+		661D12821DB0FF5C00DB8353 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661D12811DB0FF5C00DB8353 /* main.m */; };
+		661D12851DB0FF5C00DB8353 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661D12841DB0FF5C00DB8353 /* AppDelegate.m */; };
+		661D12881DB0FF5C00DB8353 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661D12871DB0FF5C00DB8353 /* ViewController.m */; };
+		661D128B1DB0FF5C00DB8353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661D12891DB0FF5C00DB8353 /* Main.storyboard */; };
+		661D128D1DB0FF5C00DB8353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661D128C1DB0FF5C00DB8353 /* Assets.xcassets */; };
+		661D12901DB0FF5C00DB8353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661D128E1DB0FF5C00DB8353 /* LaunchScreen.storyboard */; };
+		66488B371DB10335008EB228 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66488B361DB10335008EB228 /* GoogleService-Info.plist */; };
+		66488B3D1DB1571F008EB228 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 66488B3C1DB1571F008EB228 /* Post.m */; };
+		66488B401DB157E4008EB228 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 66488B3F1DB157E4008EB228 /* Comment.m */; };
+		66488B441DB158BC008EB228 /* MyPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66488B431DB158BC008EB228 /* MyPostsViewController.m */; };
+		66488B471DB15946008EB228 /* PostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66488B461DB15946008EB228 /* PostListViewController.m */; };
+		6657C4BE1DB16A47002D3C31 /* PostDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4BD1DB16A47002D3C31 /* PostDataSource.m */; };
+		6657C4C11DB16A99002D3C31 /* PostDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4C01DB16A99002D3C31 /* PostDetailTableViewController.m */; };
+		6657C4C41DB16E62002D3C31 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4C31DB16E62002D3C31 /* PostTableViewCell.m */; };
+		6657C4C71DB1A506002D3C31 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4C61DB1A506002D3C31 /* SignInViewController.m */; };
+		6657C4CA1DB1A54D002D3C31 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4C91DB1A54D002D3C31 /* UIViewController+Alerts.m */; };
+		6657C4CD1DB1A5B0002D3C31 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4CC1DB1A5B0002D3C31 /* NewPostViewController.m */; };
+		6657C4D11DB1A5EB002D3C31 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4D01DB1A5EB002D3C31 /* User.m */; };
+		6657C4D41DB1A619002D3C31 /* RecentPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4D31DB1A619002D3C31 /* RecentPostsViewController.m */; };
+		6657C4D71DB1A68A002D3C31 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4D61DB1A68A002D3C31 /* TabBarController.m */; };
+		6657C4DA1DB1A6EF002D3C31 /* MyTopPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6657C4D91DB1A6EF002D3C31 /* MyTopPostsViewController.m */; };
+		6657C4DC1DB1A994002D3C31 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6657C4DB1DB1A994002D3C31 /* PostTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34FCCAB7AFA0460CCD7BF19D /* Pods_FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661D127D1DB0FF5C00DB8353 /* FirebaseDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661D12811DB0FF5C00DB8353 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661D12831DB0FF5C00DB8353 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		661D12841DB0FF5C00DB8353 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		661D12861DB0FF5C00DB8353 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		661D12871DB0FF5C00DB8353 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		661D128A1DB0FF5C00DB8353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		661D128C1DB0FF5C00DB8353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661D128F1DB0FF5C00DB8353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		661D12911DB0FF5C00DB8353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66488B361DB10335008EB228 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		66488B3B1DB1571F008EB228 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		66488B3C1DB1571F008EB228 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		66488B3E1DB157E4008EB228 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		66488B3F1DB157E4008EB228 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		66488B421DB158BC008EB228 /* MyPostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPostsViewController.h; sourceTree = "<group>"; };
+		66488B431DB158BC008EB228 /* MyPostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPostsViewController.m; sourceTree = "<group>"; };
+		66488B451DB15946008EB228 /* PostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostListViewController.h; sourceTree = "<group>"; };
+		66488B461DB15946008EB228 /* PostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostListViewController.m; sourceTree = "<group>"; };
+		6657C4BC1DB16A47002D3C31 /* PostDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostDataSource.h; sourceTree = "<group>"; };
+		6657C4BD1DB16A47002D3C31 /* PostDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDataSource.m; sourceTree = "<group>"; };
+		6657C4BF1DB16A99002D3C31 /* PostDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostDetailTableViewController.h; sourceTree = "<group>"; };
+		6657C4C01DB16A99002D3C31 /* PostDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostDetailTableViewController.m; sourceTree = "<group>"; };
+		6657C4C21DB16E62002D3C31 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		6657C4C31DB16E62002D3C31 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		6657C4C51DB1A506002D3C31 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		6657C4C61DB1A506002D3C31 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		6657C4C81DB1A54D002D3C31 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
+		6657C4C91DB1A54D002D3C31 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = "<group>"; };
+		6657C4CB1DB1A5B0002D3C31 /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
+		6657C4CC1DB1A5B0002D3C31 /* NewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
+		6657C4CF1DB1A5EB002D3C31 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6657C4D01DB1A5EB002D3C31 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		6657C4D21DB1A619002D3C31 /* RecentPostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentPostsViewController.h; sourceTree = "<group>"; };
+		6657C4D31DB1A619002D3C31 /* RecentPostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentPostsViewController.m; sourceTree = "<group>"; };
+		6657C4D51DB1A68A002D3C31 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		6657C4D61DB1A68A002D3C31 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		6657C4D81DB1A6EF002D3C31 /* MyTopPostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTopPostsViewController.h; sourceTree = "<group>"; };
+		6657C4D91DB1A6EF002D3C31 /* MyTopPostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTopPostsViewController.m; sourceTree = "<group>"; };
+		6657C4DB1DB1A994002D3C31 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		9337C36AAC9C22EA0CA54938 /* Pods-FirebaseDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDatabase/Pods-FirebaseDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		BD3BCAAC876D3E2BCD721C4B /* Pods-FirebaseDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDatabase/Pods-FirebaseDatabase.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661D127A1DB0FF5C00DB8353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F72E05E216CE207591F13 /* Pods_FirebaseDatabase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228782C03846D44525568FCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9337C36AAC9C22EA0CA54938 /* Pods-FirebaseDatabase.debug.xcconfig */,
+				BD3BCAAC876D3E2BCD721C4B /* Pods-FirebaseDatabase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		661D12741DB0FF5C00DB8353 = {
+			isa = PBXGroup;
+			children = (
+				661D127F1DB0FF5C00DB8353 /* FirebaseDatabase */,
+				661D127E1DB0FF5C00DB8353 /* Products */,
+				228782C03846D44525568FCD /* Pods */,
+				E43215449E1F412C6CF33AD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		661D127E1DB0FF5C00DB8353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661D127D1DB0FF5C00DB8353 /* FirebaseDatabase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661D127F1DB0FF5C00DB8353 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				6657C4CE1DB1A5D0002D3C31 /* Models */,
+				66488B411DB15886008EB228 /* Controllers */,
+				661D12801DB0FF5C00DB8353 /* Supporting Files */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		661D12801DB0FF5C00DB8353 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6657C4DB1DB1A994002D3C31 /* PostTableViewCell.xib */,
+				66488B361DB10335008EB228 /* GoogleService-Info.plist */,
+				661D12891DB0FF5C00DB8353 /* Main.storyboard */,
+				661D128C1DB0FF5C00DB8353 /* Assets.xcassets */,
+				661D128E1DB0FF5C00DB8353 /* LaunchScreen.storyboard */,
+				661D12911DB0FF5C00DB8353 /* Info.plist */,
+				661D12811DB0FF5C00DB8353 /* main.m */,
+				6657C4C81DB1A54D002D3C31 /* UIViewController+Alerts.h */,
+				6657C4C91DB1A54D002D3C31 /* UIViewController+Alerts.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66488B411DB15886008EB228 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				661D12831DB0FF5C00DB8353 /* AppDelegate.h */,
+				661D12841DB0FF5C00DB8353 /* AppDelegate.m */,
+				661D12861DB0FF5C00DB8353 /* ViewController.h */,
+				661D12871DB0FF5C00DB8353 /* ViewController.m */,
+				66488B421DB158BC008EB228 /* MyPostsViewController.h */,
+				66488B431DB158BC008EB228 /* MyPostsViewController.m */,
+				66488B451DB15946008EB228 /* PostListViewController.h */,
+				66488B461DB15946008EB228 /* PostListViewController.m */,
+				6657C4BC1DB16A47002D3C31 /* PostDataSource.h */,
+				6657C4BD1DB16A47002D3C31 /* PostDataSource.m */,
+				6657C4BF1DB16A99002D3C31 /* PostDetailTableViewController.h */,
+				6657C4C01DB16A99002D3C31 /* PostDetailTableViewController.m */,
+				6657C4C21DB16E62002D3C31 /* PostTableViewCell.h */,
+				6657C4C31DB16E62002D3C31 /* PostTableViewCell.m */,
+				6657C4C51DB1A506002D3C31 /* SignInViewController.h */,
+				6657C4C61DB1A506002D3C31 /* SignInViewController.m */,
+				6657C4CB1DB1A5B0002D3C31 /* NewPostViewController.h */,
+				6657C4CC1DB1A5B0002D3C31 /* NewPostViewController.m */,
+				6657C4D21DB1A619002D3C31 /* RecentPostsViewController.h */,
+				6657C4D31DB1A619002D3C31 /* RecentPostsViewController.m */,
+				6657C4D51DB1A68A002D3C31 /* TabBarController.h */,
+				6657C4D61DB1A68A002D3C31 /* TabBarController.m */,
+				6657C4D81DB1A6EF002D3C31 /* MyTopPostsViewController.h */,
+				6657C4D91DB1A6EF002D3C31 /* MyTopPostsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6657C4CE1DB1A5D0002D3C31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66488B3B1DB1571F008EB228 /* Post.h */,
+				66488B3C1DB1571F008EB228 /* Post.m */,
+				66488B3E1DB157E4008EB228 /* Comment.h */,
+				66488B3F1DB157E4008EB228 /* Comment.m */,
+				6657C4CF1DB1A5EB002D3C31 /* User.h */,
+				6657C4D01DB1A5EB002D3C31 /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E43215449E1F412C6CF33AD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FCCAB7AFA0460CCD7BF19D /* Pods_FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661D127C1DB0FF5C00DB8353 /* FirebaseDatabase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661D12941DB0FF5C00DB8353 /* Build configuration list for PBXNativeTarget "FirebaseDatabase" */;
+			buildPhases = (
+				2B98860DB73EDFEA7D67D94D /* [CP] Check Pods Manifest.lock */,
+				661D12791DB0FF5C00DB8353 /* Sources */,
+				661D127A1DB0FF5C00DB8353 /* Frameworks */,
+				661D127B1DB0FF5C00DB8353 /* Resources */,
+				6192FE10858FADE1A657848C /* [CP] Embed Pods Frameworks */,
+				9B90F32F678820A2A19803BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseDatabase;
+			productName = FirebaseDatabase;
+			productReference = 661D127D1DB0FF5C00DB8353 /* FirebaseDatabase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661D12751DB0FF5C00DB8353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ali Karakoç";
+				TargetAttributes = {
+					661D127C1DB0FF5C00DB8353 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 661D12781DB0FF5C00DB8353 /* Build configuration list for PBXProject "FirebaseDatabase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661D12741DB0FF5C00DB8353;
+			productRefGroup = 661D127E1DB0FF5C00DB8353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661D127C1DB0FF5C00DB8353 /* FirebaseDatabase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661D127B1DB0FF5C00DB8353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D12901DB0FF5C00DB8353 /* LaunchScreen.storyboard in Resources */,
+				6657C4DC1DB1A994002D3C31 /* PostTableViewCell.xib in Resources */,
+				66488B371DB10335008EB228 /* GoogleService-Info.plist in Resources */,
+				661D128D1DB0FF5C00DB8353 /* Assets.xcassets in Resources */,
+				661D128B1DB0FF5C00DB8353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B98860DB73EDFEA7D67D94D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6192FE10858FADE1A657848C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseDatabase/Pods-FirebaseDatabase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B90F32F678820A2A19803BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseDatabase/Pods-FirebaseDatabase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661D12791DB0FF5C00DB8353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661D12881DB0FF5C00DB8353 /* ViewController.m in Sources */,
+				661D12851DB0FF5C00DB8353 /* AppDelegate.m in Sources */,
+				661D12821DB0FF5C00DB8353 /* main.m in Sources */,
+				6657C4CA1DB1A54D002D3C31 /* UIViewController+Alerts.m in Sources */,
+				6657C4D41DB1A619002D3C31 /* RecentPostsViewController.m in Sources */,
+				6657C4CD1DB1A5B0002D3C31 /* NewPostViewController.m in Sources */,
+				66488B471DB15946008EB228 /* PostListViewController.m in Sources */,
+				6657C4C71DB1A506002D3C31 /* SignInViewController.m in Sources */,
+				66488B401DB157E4008EB228 /* Comment.m in Sources */,
+				6657C4D11DB1A5EB002D3C31 /* User.m in Sources */,
+				6657C4BE1DB16A47002D3C31 /* PostDataSource.m in Sources */,
+				66488B441DB158BC008EB228 /* MyPostsViewController.m in Sources */,
+				66488B3D1DB1571F008EB228 /* Post.m in Sources */,
+				6657C4D71DB1A68A002D3C31 /* TabBarController.m in Sources */,
+				6657C4C11DB16A99002D3C31 /* PostDetailTableViewController.m in Sources */,
+				6657C4DA1DB1A6EF002D3C31 /* MyTopPostsViewController.m in Sources */,
+				6657C4C41DB16E62002D3C31 /* PostTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		661D12891DB0FF5C00DB8353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661D128A1DB0FF5C00DB8353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		661D128E1DB0FF5C00DB8353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661D128F1DB0FF5C00DB8353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661D12921DB0FF5C00DB8353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		661D12931DB0FF5C00DB8353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661D12951DB0FF5C00DB8353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9337C36AAC9C22EA0CA54938 /* Pods-FirebaseDatabase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseDatabaseUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseFacebookAuthUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseStorageUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseTwitterAuthUI/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleAuthUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/TwitterCore/iOS\"",
+					"\"${PODS_ROOT}/TwitterKit/iOS\"",
+					"\"${PODS_ROOT}/SDWebImage\"",
+					"\"${PODS_ROOT}/FBSDKLoginKit\"",
+				);
+				INFOPLIST_FILE = FirebaseDatabase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykrkc.FirebaseDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		661D12961DB0FF5C00DB8353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3BCAAC876D3E2BCD721C4B /* Pods-FirebaseDatabase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseAuthUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseDatabaseUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseFacebookAuthUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseGoogleAuthUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseStorageUI/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseUI/FirebaseUIFrameworks/FirebaseTwitterAuthUI/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleAuthUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/TwitterCore/iOS\"",
+					"\"${PODS_ROOT}/TwitterKit/iOS\"",
+					"\"${PODS_ROOT}/SDWebImage\"",
+					"\"${PODS_ROOT}/FBSDKLoginKit\"",
+				);
+				INFOPLIST_FILE = FirebaseDatabase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykrkc.FirebaseDatabase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661D12781DB0FF5C00DB8353 /* Build configuration list for PBXProject "FirebaseDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661D12921DB0FF5C00DB8353 /* Debug */,
+				661D12931DB0FF5C00DB8353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661D12941DB0FF5C00DB8353 /* Build configuration list for PBXNativeTarget "FirebaseDatabase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661D12951DB0FF5C00DB8353 /* Debug */,
+				661D12961DB0FF5C00DB8353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661D12751DB0FF5C00DB8353 /* Project object */;
+}
